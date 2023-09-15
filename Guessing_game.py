@@ -19,7 +19,7 @@ while guess != str(random_number) and not(out_of_guesses):
         print("out_of_guesses!!")
         break
 
-# You win if you guess the number with the number of tries and lose if you fail to guess the number correctly
+# You win if you guess the number within the number of tries and lose if you fail to guess the number correctly
 if int(guess) == random_number:
     print("You win!!")
 else:
